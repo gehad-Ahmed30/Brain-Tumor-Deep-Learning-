@@ -1,4 +1,9 @@
-# Brain Tumor Classification Project
+# Brain Tumor Classification Project 
+![Photo](Screenshot(210).png )
+
+![Photo](Screenshot(211).png)
+
+![Photo](Screenshot(212).png)
 
 ## Project Overview
 The Brain Tumor Classification project is designed to develop a deep learning model that can accurately classify MRI images of the brain into four categories: Glioma, Meningioma, No Tumor, and Pituitary. The primary goal of this project is to assist medical professionals in diagnosing brain tumors by providing an automated and reliable tool for image analysis.
