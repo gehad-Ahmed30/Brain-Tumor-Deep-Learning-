@@ -45,3 +45,8 @@ The model achieved the following performance metrics on the test dataset:
    ```bash
    streamlit run app.py
 
+2. Upload an MRI image through the web interface.
+3. The model will predict the type of brain tumor and display the confidence level of the prediction.
+
+## Conclusion
+This project aims to enhance the diagnostic process for brain tumors by leveraging the power of deep learning and providing an accessible tool for healthcare professionals. The implementation of the model and web application demonstrates the potential of AI in the medical field.
