@@ -24,10 +24,24 @@ The model is trained on a balanced dataset to ensure robust performance across a
 - **Pandas and NumPy**: For data manipulation and processing.
 - **Matplotlib**: For visualizing training results and data samples.
 
-## How to Use
-1. Run the Streamlit application using the command:
-2. Upload an MRI image through the web interface.
-3. The model will predict the type of brain tumor and display the confidence level of the prediction.
+## Model Performance
+The model achieved the following performance metrics on the test dataset:
 
-## Conclusion
-This project aims to enhance the diagnostic process for brain tumors by leveraging the power of deep learning and providing an accessible tool for healthcare professionals. The implementation of the model and web application demonstrates the potential of AI in the medical field.
+- **Accuracy**: 97%
+- **Precision, Recall, F1-Score**:
+
+| Class        | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| Glioma       | 0.99      | 0.90   | 0.94     | 149     |
+| Meningioma   | 0.94      | 0.97   | 0.95     | 143     |
+| No Tumor     | 1.00      | 0.99   | 1.00     | 200     |
+| Pituitary    | 0.93      | 0.99   | 0.96     | 164     |
+| **Accuracy** |           |        | **0.97** | 656     |
+| Macro Avg    | 0.97      | 0.96   | 0.96     | 656     |
+| Weighted Avg | 0.97      | 0.97   | 0.97     | 656     |
+
+## How to Use
+1. Run the Streamlit application using the command:  
+   ```bash
+   streamlit run app.py
+
