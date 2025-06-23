@@ -32,7 +32,7 @@ The model is trained on a balanced dataset to ensure robust performance across a
 ## Model Performance
 The model achieved the following performance metrics on the test dataset:
 
-- **Accuracy**: 97%
+- **Accuracy**: 98%
 - **Precision, Recall, F1-Score**:
 
 | Class        | Precision | Recall | F1-Score | Support |
