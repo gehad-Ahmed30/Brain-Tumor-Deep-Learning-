@@ -41,7 +41,7 @@ The model achieved the following performance metrics on the test dataset:
 | Meningioma   | 0.94      | 0.97   | 0.95     | 143     |
 | No Tumor     | 1.00      | 0.99   | 1.00     | 200     |
 | Pituitary    | 0.93      | 0.99   | 0.96     | 164     |
-| **Accuracy** |           |        | **0.97** | 656     |
+| **Accuracy** |           |        | **0.98** | 656     |
 | Macro Avg    | 0.97      | 0.96   | 0.96     | 656     |
 | Weighted Avg | 0.97      | 0.97   | 0.97     | 656     |
 
