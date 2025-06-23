@@ -43,7 +43,7 @@ The model achieved the following performance metrics on the test dataset:
 | Pituitary    | 0.93      | 0.99   | 0.96     | 164     |
 | **Accuracy** |           |        | **0.98** | 656     |
 | Macro Avg    | 0.97      | 0.96   | 0.96     | 656     |
-| Weighted Avg | 0.97      | 0.97   | 0.97     | 656     |
+| Weighted Avg | 0.98      | 0.98   | 0.9     | 656     |
 
 ## How to Use
 1. Run the Streamlit application using the command:  
